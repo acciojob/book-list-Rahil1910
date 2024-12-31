@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+body{
+	text-align:center;
+}
+body > h1{
+	font-weight:lighter;
+	font-family:arial;
+}
+body > h1 > span{
+	color:blue;
+}
+form{
+	max-width:740px;
+	text-align:left;
+}
+form lable{
+	display:block;
+}
+form input{
+	width:100%;
+	display:block;
+	padding:6px;
+	border:1px solid lightgray;
+}
+#btn{
+	width:100px;
+	padding-bottom:8px;
+	color:white;
+	background-color:blueviolet;
+	border:none;
+	border-radius:4px;
+	padding-top:8px;
+	cursor:pointer;
+}
+#btn:hover{
+	background-color:rgb(100, 28, 167);
+}
+#btn:active{
+	background-color:rgb(57, 16, 96);
+}
+#table{
+	width:740px;
+}
+#table thead tr th{
+	text-align:left;
+	border-bottom:2px solid black;
+}#table tbody tr td{
+	background-color:lightgray;
+	border-bottom:1px solid gray;
+	text-align:left;
+}
