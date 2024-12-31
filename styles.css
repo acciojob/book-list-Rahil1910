@@ -22,7 +22,7 @@ form input{
 	padding:6px;
 	border:1px solid lightgray;
 }
-#btn{
+#submit{
 	width:100px;
 	padding-bottom:8px;
 	color:white;
@@ -32,10 +32,10 @@ form input{
 	padding-top:8px;
 	cursor:pointer;
 }
-#btn:hover{
+#submit:hover{
 	background-color:rgb(100, 28, 167);
 }
-#btn:active{
+#submit:active{
 	background-color:rgb(57, 16, 96);
 }
 #table{

@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const table = document.getElementById('table').getElementsByTagName('tbody')[0];
-const btn = document.getElementById('btn');
+const btn = document.getElementById('submit');
 
 btn.addEventListener('click',function() {
 	const title = document.getElementById('title').value;
