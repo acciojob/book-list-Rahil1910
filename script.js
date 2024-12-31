@@ -7,7 +7,7 @@ btn.addEventListener('click',function() {
 	const author = document.getElementById('author').value;
 	const isbn = document.getElementById('isbn').value;
 	if(title && author && isbn){
-		const newRow = table.insertRow(0);
+		const newRow = table.insertRow();
 		
 		const cell1 = newRow.insertCell(0);
 		const cell2 = newRow.insertCell(1);
